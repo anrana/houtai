@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>钓场高级资料</title>
+	<link rel="stylesheet" href="./css/1.css">
+	<link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet">
+
+		<link href="css/charisma-app.css" rel="stylesheet">
+		<link href='bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
+		<link href='bower_components/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print'>
+		<link href='bower_components/chosen/chosen.min.css' rel='stylesheet'>
+		<link href='bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
+		<link href='bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>
+		<link href='bower_components/bootstrap-tour/build/css/bootstrap-tour.min.css' rel='stylesheet'>
+		<link href='css/jquery.noty.css' rel='stylesheet'>
+		<link href='css/noty_theme_default.css' rel='stylesheet'>
+		<link href='css/elfinder.min.css' rel='stylesheet'>
+		<link href='css/elfinder.theme.css' rel='stylesheet'>
+		<link href='css/jquery.iphone.toggle.css' rel='stylesheet'>
+		<link href='css/uploadify.css' rel='stylesheet'>
+		<link href='css/animate.min.css' rel='stylesheet'>
+
+		<!-- jQuery -->
+		<script src="bower_components/jquery/jquery.min.js"></script>
+
+		<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+		<!-- The fav icon -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		
+</head>
+<body id="ms">
+	<div class="ma">
+		<div class="mb">
+			<h3 class="md">钓场基本信息</h3>
+			<div class="mc">
+				<img src="./img/6.jpg">
+			</div>
+			
+			<!--<p class="me">若无闲事在心头，便是人间好时节。</p>-->
+		</div>
+		<div class="mf">
+			<ul class="mg">
+				<li><a><i>钓场名：开心钓场</i></a></li>
+				<li><a ><i>钓场ID：00000</i></a></li>
+				<li><a ><i>钓场类型：黑坑</i></a></li>
+				<li><a><i>收费：50/小时</i></a></li>
+				<li><a><i>联系人：刘宗宇</i></a></li>
+				<li><a><i>联系电话：13012011022</i></a></li>
+				<li><a><i>注册时间：2016.07.17 12：33</i></a></li>
+				
+			</ul>
+		</div>
+		<div class="anniu">
+			<a href="index.html" style="font-size: 20px;"><i> <img src="./img/3.png"/> 返回首页</i></a>
+		</div>
+	</div>
+	    
+	   <div class="main">
+	   		<div class="fl-contain">
+	   			<div class="con-wrapper">
+	   				
+	   				<div >
+	   					<div class="row">
+						<div class="box col-md-12">
+							<div class="box-inner">
+								<div class="box-header well" data-original-title="">
+									<h2><i class="glyphicon glyphicon-user"></i> 详情</h2>
+
+									<div class="box-icon">
+										
+										<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+										<!--<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>-->
+									</div>
+								</div>
+								<div class="box-content">
+
+									<table class="table table-striped table-bordered bootstrap-datatable ">
+										<thead>
+											<tr>
+												<th>地理坐标</th>
+												<th>地址</th>
+												<th>钓场详情图片</th>
+												
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>（100.5，200.7）</td>
+												<td class="center">广东省广州市番禺区s街110号</td>
+												
+												<td class="center">
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													<img src="./img/2.png"  id="img" onmouseover="changeLarge();" onmouseout="changesmall();" />
+													
+												</td>
+												
+											</tr>
+											
+											
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!--/span-->
+
+					</div>
+	   					
+	   				<hr />
+	   				<div class="row">
+						<div class="box col-md-12">
+							<div class="box-inner">
+								<div class="box-header well" data-original-title="">
+									<h2>放鱼动态</h2>
+
+									<div class="box-icon">
+										
+										<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+										<!--<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>-->
+									</div>
+								</div>
+								<div class="box-content">
+
+									<textarea type="text" id="text" disabled>7月28日上午8点放罗飞100斤欢迎各位钓友前来垂钓</textarea>
+									<input href="javascript:;" onclick="change();"  id="btnb" type="button" value="编辑"/>
+									<input href = "javascript" onclick="change()"  style="display: none;" id="btn1" type="button" value="保存"/>
+								</div>
+							</div>
+						</div>
+						<!--/span-->
+
+					</div>
+					<hr />
+						<div class="row">
+						<div class="box col-md-12">
+							<div class="box-inner">
+								<div class="box-header well" data-original-title="">
+									<h2><i class="glyphicon glyphicon-user"></i> 钓场简介</h2>
+
+									<div class="box-icon">
+										
+										<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+										<!--<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>-->
+									</div>
+								</div>
+								<div class="box-content">
+									
+                                     <textarea type="text" id="text1" disabled>开心钓场成立于x年x月x日，位于广东省广州市...................</textarea>
+									<input href="javascript:;" onclick="change();"  id="btnc" type="button" value="编辑"/>
+									<input href = "javascript" onclick="change()"  style="display: none;" id="btn2" type="button" value="保存"/>
+								</div>
+							</div>
+						</div>
+						<!--/span-->
+
+					</div>
+					<hr />
+					<div class="row">
+						<div class="box col-md-12">
+							<div class="box-inner">
+								<div class="box-header well" data-original-title="">
+									<h2><i class="glyphicon glyphicon-user"></i> 钓圈</h2>
+
+									<div class="box-icon">
+										
+										<a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+										<!--<a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>-->
+									</div>
+								</div>
+								<div class="box-content">
+
+									<table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+										<thead>
+											<tr>
+												<th>用户ID</th>
+												<th>用户名</th>
+												
+												<th>发布时间</th>
+												<th>评分</th>
+												<th>操作</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>00000000</td>
+												<td class="center">刘宗宇</td>
+												
+												<td class="center">2016.07.18 12：33</td>
+												<td class="center">
+													8
+												</td>
+												<td class="center">
+													
+													
+													<a class="btn  btn-setting btn-danger" href="#">
+														<i class="glyphicon glyphicon-trash icon-white"></i> 删除评分
+													</a>
+														
+													
+												</td>
+											</tr>
+											<tr>
+												<td>00000000</td>
+												<td class="center">刘宗宇</td>
+												
+												<td class="center">2016.07.18 12：33</td>
+												<td class="center">
+													8
+												</td>
+												<td class="center">
+													
+													
+													<a class="btn  btn-setting btn-danger" href="#">
+														<i class="glyphicon glyphicon-trash icon-white"></i> 删除评分
+													</a>
+														
+													
+												</td>
+											</tr>
+											<tr>
+												<td>00000000</td>
+												<td class="center">刘宗宇</td>
+												
+												<td class="center">2016.07.18 12：33</td>
+												<td class="center">
+													8
+												</td>
+												<td class="center">
+													
+													
+													<a class="btn  btn-setting btn-danger" href="#">
+														<i class="glyphicon glyphicon-trash icon-white"></i> 删除评分
+													</a>
+														
+													
+												</td>
+											</tr>
+											<tr>
+												<td>00000000</td>
+												<td class="center">刘宗宇</td>
+												
+												<td class="center">2016.07.18 12：33</td>
+												<td class="center">
+													8
+												</td>
+												<td class="center">
+													
+													
+													<a class="btn  btn-setting btn-danger" href="#">
+														<i class="glyphicon glyphicon-trash icon-white"></i> 删除评分
+													</a>
+														
+													
+												</td>
+											</tr>
+											<tr>
+												<td>00000000</td>
+												<td class="center">刘宗宇</td>
+												
+												<td class="center">2016.07.18 12：33</td>
+												<td class="center">
+													8
+												</td>
+												<td class="center">
+													
+													
+													<a class="btn  btn-setting btn-danger" href="#">
+														<i class="glyphicon glyphicon-trash icon-white"></i> 删除评分
+													</a>
+														
+													
+												</td>
+											</tr>
+											<tr>
+												<td>00000000</td>
+												<td class="center">刘宗宇</td>
+												
+												<td class="center">2016.07.18 12：33</td>
+												<td class="center">
+													8
+												</td>
+												<td class="center">
+													
+													
+													<a class="btn  btn-setting btn-danger" href="#">
+														<i class="glyphicon glyphicon-trash icon-white"></i> 删除评分
+													</a>
+														
+													
+												</td>
+											</tr>
+											
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!--/span-->
+
+					</div>
+					<hr />
+              </div>
+	   				</div>
+	   			 <div class="al">
+			<p>|build in July,2016|</p>
+		     </div>
+	   				</div>
+	   			</div>	
+	   		</div>
+	   </div>
+	   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h3><img src="img/warning.png"/> 警告</h3>
+					</div>
+					<div class="modal-body">
+						<p>是否删除该评分数据？</p>
+						
+					</div>
+					<div class="modal-footer">
+						<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
+						<a href="#" class="btn btn-primary" data-dismiss="modal">确定</a>
+					</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    	var img = document.getElementById("img");
+var s = null; 
+var l = null; 
+var step = 8; //调整改变尺寸的速度 
+var step_ = step * 2; 
+var maxWidth = 200; //最大宽度 
+var maxHeight = 200; //最大高度 
+var minWidth = 60; //最小宽度 
+var minHeight = 60; //最小高度 
+
+function changeLarge(){ 
+ clearInterval(s); 
+ l = setInterval("larger()",1); 
+ } 
+
+function changesmall(){ 
+ clearInterval(l); 
+ s = setInterval("smaller()",1); 
+ } 
+
+function smaller(){ 
+ if(parseInt(img.width)>minWidth){ 
+ img.style.marginLeft = parseInt(img.style.marginLeft)+step; 
+ img.width = parseInt(img.width) - step_; 
+ }else{ 
+ clearInterval(s); 
+ } 
+ if(parseInt(img.height)>minHeight){ 
+ img.style.marginTop = parseInt(img.style.marginTop)+step; 
+ img.height = parseInt(img.height) - step_; 
+ }else{ 
+ clearInterval(s); 
+ } 
+ } 
+
+function larger(){ 
+ if(parseInt(img.width) <maxWidth){ 
+ img.style.marginLeft = parseInt(img.style.marginLeft)-step; 
+ img.width = parseInt(img.width) + step_; 
+ }else{ 
+ clearInterval(l); 
+ } 
+ if(parseInt(img.height) <maxHeight){ 
+ img.style.marginTop = parseInt(img.style.marginTop)-step; 
+ img.height = parseInt(img.height) + step_; 
+ }else{ 
+ clearInterval(l); 
+ } 
+ } 
+    </script>
+	   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<!-- library for cookie management -->
+		<script src="js/jquery.cookie.js"></script>
+		<!-- calender plugin -->
+		<script src='bower_components/moment/min/moment.min.js'></script>
+		<script src='bower_components/fullcalendar/dist/fullcalendar.min.js'></script>
+		<!-- data table plugin -->
+		<script src='js/jquery.dataTables.min.js'></script>
+
+		<!-- select or dropdown enhancer -->
+		<script src="bower_components/chosen/chosen.jquery.min.js"></script>
+		<!-- plugin for gallery image view -->
+		<script src="bower_components/colorbox/jquery.colorbox-min.js"></script>
+		<!-- notification plugin -->
+		<script src="js/jquery.noty.js"></script>
+		<!-- library for making tables responsive -->
+		<script src="bower_components/responsive-tables/responsive-tables.js"></script>
+		<!-- tour plugin -->
+		<script src="bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js"></script>
+		<!-- star rating plugin -->
+		<script src="js/jquery.raty.min.js"></script>
+		<!-- for iOS style toggle switch -->
+		<script src="js/jquery.iphone.toggle.js"></script>
+		<!-- autogrowing textarea plugin -->
+		<script src="js/jquery.autogrow-textarea.js"></script>
+		<!-- multiple file upload plugin -->
+		<script src="js/jquery.uploadify-3.1.min.js"></script>
+		<!-- history.js for cross-browser state change on ajax -->
+		<script src="js/jquery.history.js"></script>
+		<!-- application script for Charisma demo -->
+		<script src="js/charisma.js"></script>
+</body>
+</html>

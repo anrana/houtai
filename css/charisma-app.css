@@ -412,7 +412,7 @@ ul.ajax-loaders {
 }
 
 .pull-right {
-    float: right !important;
+    float: right;
 }
 
 .remember {

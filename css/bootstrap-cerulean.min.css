@@ -2563,7 +2563,7 @@ th {
 .table>tfoot>tr>td {
 	padding: 8px;
 	line-height: 1.42857143;
-	vertical-align: top;
+	vertical-align: center;
 	border-top: 1px solid #dddddd
 }
 
@@ -6494,12 +6494,14 @@ button.close {
 
 .modal-title {
 	margin: 0;
-	line-height: 1.42857143
+	line-height: 1.42857143;
+	
 }
 
 .modal-body {
 	position: relative;
-	padding: 20px
+	padding: 20px;
+	
 }
 
 .modal-footer {
@@ -7076,7 +7078,7 @@ button.close {
 }
 
 .pull-right {
-	float: right !important
+	float: right
 }
 
 .pull-left {

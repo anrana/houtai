@@ -434,3 +434,21 @@ $.extend($.fn.dataTableExt.oPagination, {
         }
     }
 });
+document.getElementById("btnb").onclick = function(){
+	document.getElementById("text").disabled = false;	
+	document.getElementById("btn1").style.display = "inline";
+	}
+	document.getElementById("btn1").onclick = function(){
+		document.getElementById("text").disabled = true ;
+		document.getElementById("btn1").style.display = "none"
+	};
+	document.getElementById("btnc").onclick = function(){
+	document.getElementById("text1").disabled = false;	
+	document.getElementById("btn2").style.display = "inline";
+	}
+	document.getElementById("btn2").onclick = function(){
+		document.getElementById("text1").disabled = true ;
+		document.getElementById("btn2").style.display = "none"
+	};
+
+
