@@ -434,7 +434,9 @@ $.extend($.fn.dataTableExt.oPagination, {
         }
     }
 });
-document.getElementById("btnb").onclick = function(){
+
+window.onload = function(){
+	document.getElementById("btnb").onclick = function(){
 	document.getElementById("text").disabled = false;	
 	document.getElementById("btn1").style.display = "inline";
 	}
@@ -451,4 +453,5 @@ document.getElementById("btnb").onclick = function(){
 		document.getElementById("btn2").style.display = "none"
 	};
 
+};
 
